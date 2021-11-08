@@ -1,0 +1,10 @@
+C:\0SW\College\CSC 310 UI\Digikey\Digikey\bin\Debug\Digikey.exe.config
+C:\0SW\College\CSC 310 UI\Digikey\Digikey\bin\Debug\Digikey.exe
+C:\0SW\College\CSC 310 UI\Digikey\Digikey\bin\Debug\Digikey.pdb
+C:\0SW\College\CSC 310 UI\Digikey\Digikey\obj\Debug\Digikey.csprojAssemblyReference.cache
+C:\0SW\College\CSC 310 UI\Digikey\Digikey\obj\Debug\Digikey.Form1.resources
+C:\0SW\College\CSC 310 UI\Digikey\Digikey\obj\Debug\Digikey.Properties.Resources.resources
+C:\0SW\College\CSC 310 UI\Digikey\Digikey\obj\Debug\Digikey.csproj.GenerateResource.cache
+C:\0SW\College\CSC 310 UI\Digikey\Digikey\obj\Debug\Digikey.csproj.CoreCompileInputs.cache
+C:\0SW\College\CSC 310 UI\Digikey\Digikey\obj\Debug\Digikey.exe
+C:\0SW\College\CSC 310 UI\Digikey\Digikey\obj\Debug\Digikey.pdb
