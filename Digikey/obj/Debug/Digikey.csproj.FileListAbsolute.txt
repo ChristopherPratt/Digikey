@@ -8,3 +8,15 @@ C:\0SW\College\CSC 310 UI\Digikey\Digikey\obj\Debug\Digikey.csproj.GenerateResou
 C:\0SW\College\CSC 310 UI\Digikey\Digikey\obj\Debug\Digikey.csproj.CoreCompileInputs.cache
 C:\0SW\College\CSC 310 UI\Digikey\Digikey\obj\Debug\Digikey.exe
 C:\0SW\College\CSC 310 UI\Digikey\Digikey\obj\Debug\Digikey.pdb
+C:\0SW\College\CSC 310 UI\Git\Digikey\Digikey\bin\Debug\Digikey.exe.config
+C:\0SW\College\CSC 310 UI\Git\Digikey\Digikey\bin\Debug\Digikey.exe
+C:\0SW\College\CSC 310 UI\Git\Digikey\Digikey\bin\Debug\Digikey.pdb
+C:\0SW\College\CSC 310 UI\Git\Digikey\Digikey\obj\Debug\Digikey.csprojAssemblyReference.cache
+C:\0SW\College\CSC 310 UI\Git\Digikey\Digikey\obj\Debug\Digikey.Properties.Resources.resources
+C:\0SW\College\CSC 310 UI\Git\Digikey\Digikey\obj\Debug\Digikey.csproj.GenerateResource.cache
+C:\0SW\College\CSC 310 UI\Git\Digikey\Digikey\obj\Debug\Digikey.csproj.CoreCompileInputs.cache
+C:\0SW\College\CSC 310 UI\Git\Digikey\Digikey\obj\Debug\Digikey.exe
+C:\0SW\College\CSC 310 UI\Git\Digikey\Digikey\obj\Debug\Digikey.pdb
+C:\0SW\College\CSC 310 UI\Git\Digikey\Digikey\obj\Debug\Digikey.TopMenu.resources
+C:\0SW\College\CSC 310 UI\Git\Digikey\Digikey\obj\Debug\Digikey.Filter.resources
+C:\0SW\College\CSC 310 UI\Git\Digikey\Digikey\obj\Debug\Digikey.Overlay.resources
