@@ -55,6 +55,18 @@
     <Compile Include="Address_Info.Designer.cs">
       <DependentUpon>Address_Info.cs</DependentUpon>
     </Compile>
+    <Compile Include="Cart.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Cart.Designer.cs">
+      <DependentUpon>Cart.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Product_Details.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Product_Details.Designer.cs">
+      <DependentUpon>Product_Details.cs</DependentUpon>
+    </Compile>
     <Compile Include="Overlay.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -66,6 +78,12 @@
     </Compile>
     <Compile Include="Shipping_Info.Designer.cs">
       <DependentUpon>Shipping_Info.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Support.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Support.Designer.cs">
+      <DependentUpon>Support.cs</DependentUpon>
     </Compile>
     <Compile Include="TopMenu.cs">
       <SubType>Form</SubType>
@@ -84,11 +102,20 @@
     <EmbeddedResource Include="Address_Info.resx">
       <DependentUpon>Address_Info.cs</DependentUpon>
     </EmbeddedResource>
+    <EmbeddedResource Include="Cart.resx">
+      <DependentUpon>Cart.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="Overlay.resx">
       <DependentUpon>Overlay.cs</DependentUpon>
     </EmbeddedResource>
+    <EmbeddedResource Include="Product_Details.resx">
+      <DependentUpon>Product_Details.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="Shipping_Info.resx">
       <DependentUpon>Shipping_Info.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Support.resx">
+      <DependentUpon>Support.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="TopMenu.resx">
       <DependentUpon>TopMenu.cs</DependentUpon>
