@@ -8,3 +8,15 @@ C:\0SW\College\CSC 310 UI\Digikey\Digikey\obj\Debug\Digikey.csproj.GenerateResou
 C:\0SW\College\CSC 310 UI\Digikey\Digikey\obj\Debug\Digikey.csproj.CoreCompileInputs.cache
 C:\0SW\College\CSC 310 UI\Digikey\Digikey\obj\Debug\Digikey.exe
 C:\0SW\College\CSC 310 UI\Digikey\Digikey\obj\Debug\Digikey.pdb
+C:\Users\felix\Desktop\digikey\Digikey\Digikey\bin\Debug\Digikey.exe.config
+C:\Users\felix\Desktop\digikey\Digikey\Digikey\bin\Debug\Digikey.exe
+C:\Users\felix\Desktop\digikey\Digikey\Digikey\bin\Debug\Digikey.pdb
+C:\Users\felix\Desktop\digikey\Digikey\Digikey\obj\Debug\Digikey.csproj.AssemblyReference.cache
+C:\Users\felix\Desktop\digikey\Digikey\Digikey\obj\Debug\Digikey.Form1.resources
+C:\Users\felix\Desktop\digikey\Digikey\Digikey\obj\Debug\Digikey.Properties.Resources.resources
+C:\Users\felix\Desktop\digikey\Digikey\Digikey\obj\Debug\Digikey.csproj.GenerateResource.cache
+C:\Users\felix\Desktop\digikey\Digikey\Digikey\obj\Debug\Digikey.csproj.CoreCompileInputs.cache
+C:\Users\felix\Desktop\digikey\Digikey\Digikey\obj\Debug\Digikey.exe
+C:\Users\felix\Desktop\digikey\Digikey\Digikey\obj\Debug\Digikey.pdb
+C:\Users\felix\Desktop\digikey\Digikey\Digikey\obj\Debug\Digikey.Address_Info.resources
+C:\Users\felix\Desktop\digikey\Digikey\Digikey\obj\Debug\Digikey.Shipping_Info.resources
