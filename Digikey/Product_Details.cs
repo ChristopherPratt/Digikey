@@ -12,6 +12,7 @@ namespace Digikey
 {
     public partial class Product_Details : Form
     {
+        public static int qty;
         public Product_Details()
         {
             InitializeComponent();
@@ -19,7 +20,12 @@ namespace Digikey
 
         private void button1_Click(object sender, EventArgs e)
         {
-
+            try
+            {
+                qty = Convert.ToInt32(textBox1.Text);
+            }
+            catch { }
+            
         }
 
         private void panel1_Paint(object sender, PaintEventArgs e)

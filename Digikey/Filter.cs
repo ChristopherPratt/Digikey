@@ -31,6 +31,8 @@ namespace Digikey
 
             populateListBoxes(TransistorResult, transistorCols, transistorListBoxes);
             populateListBoxes(connectorResult, ConnectorCols, connectorListBoxes);
+            convertToDtconn(connectorResult);
+            convertToDttrans(TransistorResult);
 
 
         }
@@ -39,14 +41,18 @@ namespace Digikey
         public void showConnector()
         {
             pTransistor.Hide();
-            pConnectors.Show();            
+            pConnectors.Show();
+            dgvConnectors.Show();
+            dgv.Hide();
         }
 
         public void showTransistor()
         {
             pConnectors.Hide();
             pTransistor.Show();
-           
+            dgvConnectors.Hide();
+            dgv.Show();
+
         }
 
         private void Label2_Click(object sender, EventArgs e)
@@ -115,31 +121,39 @@ namespace Digikey
             }
         }
 
-        //public DataTable convertToDt(List<List<string>> file)
-        //{
-           
+        public void convertToDttrans(List<List<string>> file)
+        {
+            for (int a = 0; a < file[0].Count; a++)
+            {
+                dgv.Columns.Add(file[0][a], file[0][a]);
+            }
+            for (int a = 0; a < file.Count; a++)
+            {
+                dgv.Rows.Add(file[a].ToArray());                
+            }
 
+        }
+        public void convertToDtconn(List<List<string>> file)
+        {
+            for (int a = 0; a < file[0].Count; a++)
+            {
+                dgvConnectors.Columns.Add(file[0][a], file[0][a]);
+            }
+            for (int a = 0; a < file.Count; a++)
+            {
+                dgvConnectors.Rows.Add(file[a].ToArray());
+            }
 
+        }
 
-     
-        //    //for (int a = 0; a < file[0].Count; a++)
-        //    //{
-        //    //    dgv.Columns.Add(file[0][a], file[0][a]);
-        //    //}
-        //    //for (int a = 0; a < file.Count; a++)
-        //    //{
-        //    //    DataGridViewRow row = new DataGridViewRow();
-        //    //    for (int b = 0; b < file[0].Count; b++)
-        //    //    {
-        //    //        row.Cells.Add(file[a][b]);
-        //    //    }
-        //    //}
-           
+        private void DgvConnectors_CellMouseClick(object sender, DataGridViewCellMouseEventArgs e)
+        {
+            Overlay.changeOverlay(Overlay.product);
+        }
 
-
-
-
-        //    //    return dt;
-        //}
+        private void Dgv_CellMouseClick(object sender, DataGridViewCellMouseEventArgs e)
+        {
+            Overlay.changeOverlay(Overlay.product);
+        }
     }
 }

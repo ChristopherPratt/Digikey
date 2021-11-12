@@ -49,9 +49,7 @@
             this.dgv = new System.Windows.Forms.DataGridView();
             this.radioButton1 = new System.Windows.Forms.RadioButton();
             this.radioButton2 = new System.Windows.Forms.RadioButton();
-            this.panel3 = new System.Windows.Forms.Panel();
             this.label10 = new System.Windows.Forms.Label();
-            this.label11 = new System.Windows.Forms.Label();
             this.pConnectors = new System.Windows.Forms.Panel();
             this.button2 = new System.Windows.Forms.Button();
             this.label3 = new System.Windows.Forms.Label();
@@ -64,10 +62,12 @@
             this.lb02 = new System.Windows.Forms.ListBox();
             this.label7 = new System.Windows.Forms.Label();
             this.lb01 = new System.Windows.Forms.ListBox();
+            this.dgvConnectors = new System.Windows.Forms.DataGridView();
             this.pTransistor.SuspendLayout();
             this.panel2.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.dgv)).BeginInit();
             this.pConnectors.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.dgvConnectors)).BeginInit();
             this.SuspendLayout();
             // 
             // listBox1
@@ -250,6 +250,7 @@
             // 
             // panel2
             // 
+            this.panel2.Controls.Add(this.dgvConnectors);
             this.panel2.Controls.Add(this.dgv);
             this.panel2.Location = new System.Drawing.Point(49, 462);
             this.panel2.Name = "panel2";
@@ -263,8 +264,9 @@
             this.dgv.Name = "dgv";
             this.dgv.RowHeadersWidth = 51;
             this.dgv.RowTemplate.Height = 24;
-            this.dgv.Size = new System.Drawing.Size(240, 150);
+            this.dgv.Size = new System.Drawing.Size(1581, 271);
             this.dgv.TabIndex = 0;
+            this.dgv.CellMouseClick += new System.Windows.Forms.DataGridViewCellMouseEventHandler(this.Dgv_CellMouseClick);
             // 
             // radioButton1
             // 
@@ -288,14 +290,6 @@
             this.radioButton2.Text = "Sort Price Descending";
             this.radioButton2.UseVisualStyleBackColor = true;
             // 
-            // panel3
-            // 
-            this.panel3.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-            this.panel3.Location = new System.Drawing.Point(1646, 35);
-            this.panel3.Name = "panel3";
-            this.panel3.Size = new System.Drawing.Size(245, 509);
-            this.panel3.TabIndex = 8;
-            // 
             // label10
             // 
             this.label10.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
@@ -304,16 +298,6 @@
             this.label10.Name = "label10";
             this.label10.Size = new System.Drawing.Size(245, 192);
             this.label10.TabIndex = 9;
-            // 
-            // label11
-            // 
-            this.label11.AutoSize = true;
-            this.label11.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label11.Location = new System.Drawing.Point(1739, 7);
-            this.label11.Name = "label11";
-            this.label11.Size = new System.Drawing.Size(49, 25);
-            this.label11.TabIndex = 10;
-            this.label11.Text = "Cart";
             // 
             // pConnectors
             // 
@@ -441,15 +425,24 @@
             this.lb01.Size = new System.Drawing.Size(164, 164);
             this.lb01.TabIndex = 0;
             // 
+            // dgvConnectors
+            // 
+            this.dgvConnectors.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
+            this.dgvConnectors.Location = new System.Drawing.Point(7, 4);
+            this.dgvConnectors.Name = "dgvConnectors";
+            this.dgvConnectors.RowHeadersWidth = 51;
+            this.dgvConnectors.RowTemplate.Height = 24;
+            this.dgvConnectors.Size = new System.Drawing.Size(1581, 271);
+            this.dgvConnectors.TabIndex = 1;
+            this.dgvConnectors.CellMouseClick += new System.Windows.Forms.DataGridViewCellMouseEventHandler(this.DgvConnectors_CellMouseClick);
+            // 
             // Filter
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(1900, 750);
             this.Controls.Add(this.pConnectors);
-            this.Controls.Add(this.label11);
             this.Controls.Add(this.label10);
-            this.Controls.Add(this.panel3);
             this.Controls.Add(this.radioButton2);
             this.Controls.Add(this.radioButton1);
             this.Controls.Add(this.panel2);
@@ -468,6 +461,7 @@
             ((System.ComponentModel.ISupportInitialize)(this.dgv)).EndInit();
             this.pConnectors.ResumeLayout(false);
             this.pConnectors.PerformLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.dgvConnectors)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -495,9 +489,7 @@
         private System.Windows.Forms.DataGridView dgv;
         private System.Windows.Forms.RadioButton radioButton1;
         private System.Windows.Forms.RadioButton radioButton2;
-        private System.Windows.Forms.Panel panel3;
         private System.Windows.Forms.Label label10;
-        private System.Windows.Forms.Label label11;
         private System.Windows.Forms.Panel pConnectors;
         private System.Windows.Forms.Button button2;
         private System.Windows.Forms.Label label3;
@@ -510,5 +502,6 @@
         private System.Windows.Forms.ListBox lb02;
         private System.Windows.Forms.Label label7;
         private System.Windows.Forms.ListBox lb01;
+        private System.Windows.Forms.DataGridView dgvConnectors;
     }
 }
