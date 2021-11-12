@@ -19,10 +19,7 @@ namespace Digikey
 
         public void showFilterPage(string type)
         {
-            Filter f = new Filter();
-            f.TopLevel = false;
-           
-            f.Show();
+
         }
 
         private void Button1_Click(object sender, EventArgs e)
@@ -32,10 +29,7 @@ namespace Digikey
 
         private void Button2_Click(object sender, EventArgs e)
         {
-            Filter f = new Filter();
-            f.TopLevel = false;
-            f.Parent = this;
-            f.Show();
+
         }
 
 
@@ -130,15 +124,13 @@ namespace Digikey
 
         private void Label8_Click(object sender, EventArgs e)
         {
-            Overlay.topMenu.Hide();
-            Overlay.filter.Show();
+            Overlay.changeOverlay(Overlay.filter);
             Overlay.filter.showTransistor();
         }
 
         private void Label5_Click(object sender, EventArgs e)
         {
-            Overlay.topMenu.Hide();
-            Overlay.filter.Show();
+            Overlay.changeOverlay(Overlay.filter);
             Overlay.filter.showTransistor();
         }
 
@@ -146,16 +138,14 @@ namespace Digikey
         {
             if (e.KeyData == Keys.Enter)
             {
-                Overlay.topMenu.Hide();
-                Overlay.filter.Show();
+                Overlay.changeOverlay(Overlay.filter);
                 Overlay.filter.showTransistor();
             }
         }
 
         private void Label58_Click(object sender, EventArgs e)
         {
-            Overlay.topMenu.Hide();
-            Overlay.filter.Show();
+            Overlay.changeOverlay(Overlay.filter);
             Overlay.filter.showConnector();
         }
 
@@ -163,8 +153,7 @@ namespace Digikey
         {
             if (e.KeyData == Keys.Enter)
             {
-                Overlay.topMenu.Hide();
-                Overlay.filter.Show();
+                Overlay.changeOverlay(Overlay.filter);
                 Overlay.filter.showConnector();
             }
         }

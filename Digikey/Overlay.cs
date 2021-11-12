@@ -14,11 +14,16 @@ namespace Digikey
     {
         public static TopMenu topMenu;
         public static Filter filter;
+        public static Cart cart;
+        public static Product_Details product;
+        public static Shipping_Info shipping;
+        public static Address_Info address;
 
 
         public Overlay()
         {
             InitializeComponent();
+
             topMenu = new TopMenu();
             topMenu.TopLevel = false;
             topMenu.Parent = pForms;
@@ -27,7 +32,39 @@ namespace Digikey
             filter = new Filter();
             filter.TopLevel = false;
             filter.Parent = pForms;
-            //filter.Show();
+
+            cart = new Cart();
+            cart.TopLevel = false;
+            cart.Parent = pForms;
+
+            product = new Product_Details();
+            product.TopLevel = false;
+            product.Parent = pForms;
+
+            shipping = new Shipping_Info();
+            shipping.TopLevel = false;
+            shipping.Parent = pForms;
+
+            address = new Address_Info();
+            address.TopLevel = false;
+            address.Parent = pForms;
+
+            
+
+
+
+        }
+
+        public static void changeOverlay(Form form)
+        {
+            topMenu.Hide();
+            filter.Hide();
+            cart.Hide();
+            product.Hide();
+            shipping.Hide();
+            address.Hide();
+
+            form.Show();
 
         }
 
@@ -67,8 +104,9 @@ namespace Digikey
 
         private void LblDigikey_Click(object sender, EventArgs e)
         {
-            filter.Hide();
-            topMenu.Show();
+            Overlay.changeOverlay(topMenu);
+            //filter.Hide();
+            //topMenu.Show();
         }
 
         private void TbSearch_KeyDown(object sender, KeyEventArgs e)
@@ -99,6 +137,11 @@ namespace Digikey
 
                 
             }
+        }
+
+        private void BCart_Click(object sender, EventArgs e)
+        {
+            Overlay.changeOverlay(Overlay.cart);
         }
     }
 }

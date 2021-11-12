@@ -31,5 +31,10 @@ namespace Digikey
         {
 
         }
+
+        private void Button1_Click(object sender, EventArgs e)
+        {
+            Overlay.changeOverlay(Overlay.address);
+        }
     }
 }
