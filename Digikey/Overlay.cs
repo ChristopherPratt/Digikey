@@ -15,6 +15,7 @@ namespace Digikey
         public static TopMenu topMenu;
         public static Filter filter;
         public static Cart cart;
+        public static Support support;
         public static Product_Details product;
         public static Shipping_Info shipping;
         public static Address_Info address;
@@ -36,6 +37,10 @@ namespace Digikey
             cart = new Cart();
             cart.TopLevel = false;
             cart.Parent = pForms;
+
+            support = new Support();
+            support.TopLevel = false;
+            support.Parent = pForms;
 
             product = new Product_Details();
             product.TopLevel = false;
@@ -60,6 +65,7 @@ namespace Digikey
             topMenu.Hide();
             filter.Hide();
             cart.Hide();
+            support.Hide();
             product.Hide();
             shipping.Hide();
             address.Hide();
@@ -142,6 +148,11 @@ namespace Digikey
         private void BCart_Click(object sender, EventArgs e)
         {
             Overlay.changeOverlay(Overlay.cart);
+        }
+
+        private void label4_Click(object sender, EventArgs e)
+        {
+            Overlay.changeOverlay(Overlay.support);
         }
     }
 }
