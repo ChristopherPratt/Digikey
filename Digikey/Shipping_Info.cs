@@ -91,5 +91,31 @@ namespace Digikey
         {
 
         }
+
+        private void radioButton14_CheckedChanged(object sender, EventArgs e)
+        {
+        
+
+        }
+
+        private void radioButton1_CheckedChanged(object sender, EventArgs e)
+        {
+
+        }
+
+        private void radioButton3_CheckedChanged(object sender, EventArgs e)
+        {
+
+        }
+
+        private void radioButton5_CheckedChanged(object sender, EventArgs e)
+        {
+
+        }
+
+        private void radioButton6_CheckedChanged(object sender, EventArgs e)
+        {
+
+        }
     }
 }
