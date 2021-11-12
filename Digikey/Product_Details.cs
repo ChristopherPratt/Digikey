@@ -12,9 +12,11 @@ namespace Digikey
 {
     public partial class Product_Details : Form
     {
+        Cart cart;
         public static int qty;
-        public Product_Details()
+        public Product_Details(Cart c)
         {
+            cart = c;
             InitializeComponent();
         }
 
@@ -22,7 +24,7 @@ namespace Digikey
         {
             try
             {
-                qty = Convert.ToInt32(textBox1.Text);
+                cart.update(Convert.ToInt32(textBox1.Text));
             }
             catch { }
             

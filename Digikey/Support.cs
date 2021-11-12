@@ -16,60 +16,7 @@ namespace Digikey
         public Support()
         {
             InitializeComponent();
-            /*
-                        btn1 = new Button();
-                        btn.Tag = "Yo";
 
-                        btn1 = new Button();
-                        btn1 = new Button();
-                        btn1 = new Button();
-                        btn.SetBounds(400, 400, 400, 400);
-                        btn.Location = new Point(96,213);
-                        Controls.Add(btn);
-                        btn.BackColor = Color.Black;
-                        string name = "ddsad";
-                        btn.Click += new EventHandler(this.btnEvent_click);*/
-
-
-            /*            for (int x = 0; x < btn.GetLength(0); x++)
-                        {
-                            for (int y = 0; y < btn.GetLength(1); y++)
-                            {
-                                btn[x, y] = new Button();
-                                btn[x, y].SetBounds(40 * x, 40 * y, 40, 40);
-                                btn[x, y].Click += new EventHandler(this.btnEvent_click);
-                                Controls.Add(btn[x, y]);
-                                btn[x, y].BackColor = Color.Black;
-                            }
-                        }*/
-        }
-
-
-        void btnEvent_click(object sender, EventArgs e)
-        {
-            if ("Yo" == (String)((Button)sender).Tag)
-            {
-
-            }
-            Control ctrl = ((Control)sender);
-            switch (ctrl.BackColor.Name)
-            {
-                case "Red":
-                    ctrl.BackColor = Color.Yellow;
-                    break;
-                case "Black":
-                    ctrl.BackColor = Color.White;
-                    break;
-                case "White":
-                    ctrl.BackColor = Color.Red;
-                    break;
-                case "Yellow":
-                    ctrl.BackColor = Color.Purple;
-                    break;
-                default:
-                    ctrl.BackColor = Color.Red;
-                    break;
-            }
         }
 
         void click(int opt)

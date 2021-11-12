@@ -42,7 +42,7 @@ namespace Digikey
             support.TopLevel = false;
             support.Parent = pForms;
 
-            product = new Product_Details();
+            product = new Product_Details(cart);
             product.TopLevel = false;
             product.Parent = pForms;
 
