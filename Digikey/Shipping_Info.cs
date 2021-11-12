@@ -94,14 +94,27 @@ namespace Digikey
 
         private void radioButton14_CheckedChanged(object sender, EventArgs e)
         {
-            this.radioButtonAdv1.BorderColor = System.Drawing.Color.Fuchsia;
-            this.radioButtonAdv1.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-            this.radioButtonAdv1.BorderSingle = System.Windows.Forms.ButtonBorderStyle.Dotted;
-            this.radioButtonAdv1.Border3DStyle = System.Windows.Forms.Border3DStyle.RaisedInner;
+        
 
-            // BorderStyle must be set to 'FixedSingle'.
+        }
 
-            this.radioButtonAdv1.HotBorderColor = System.Drawing.Color.DarkOrange;
+        private void radioButton1_CheckedChanged(object sender, EventArgs e)
+        {
+
+        }
+
+        private void radioButton3_CheckedChanged(object sender, EventArgs e)
+        {
+
+        }
+
+        private void radioButton5_CheckedChanged(object sender, EventArgs e)
+        {
+
+        }
+
+        private void radioButton6_CheckedChanged(object sender, EventArgs e)
+        {
 
         }
     }

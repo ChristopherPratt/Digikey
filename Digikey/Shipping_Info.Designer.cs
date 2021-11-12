@@ -45,9 +45,6 @@ namespace Digikey
             this.panel28 = new System.Windows.Forms.Panel();
             this.label2 = new System.Windows.Forms.Label();
             this.panel29 = new System.Windows.Forms.Panel();
-            this.panel30 = new System.Windows.Forms.Panel();
-            this.label1 = new System.Windows.Forms.Label();
-            this.textBox3 = new System.Windows.Forms.TextBox();
             this.panel18 = new System.Windows.Forms.Panel();
             this.label3 = new System.Windows.Forms.Label();
             this.panel17 = new System.Windows.Forms.Panel();
@@ -84,10 +81,55 @@ namespace Digikey
             this.textBox5 = new System.Windows.Forms.TextBox();
             this.button1 = new System.Windows.Forms.Button();
             this.button2 = new System.Windows.Forms.Button();
+            this.groupBox1 = new System.Windows.Forms.GroupBox();
+            this.radioButton1 = new System.Windows.Forms.RadioButton();
+            this.radioButton2 = new System.Windows.Forms.RadioButton();
+            this.radioButton3 = new System.Windows.Forms.RadioButton();
+            this.radioButton4 = new System.Windows.Forms.RadioButton();
+            this.radioButton5 = new System.Windows.Forms.RadioButton();
+            this.radioButton6 = new System.Windows.Forms.RadioButton();
+            this.radioButton7 = new System.Windows.Forms.RadioButton();
+            this.radioButton8 = new System.Windows.Forms.RadioButton();
+            this.radioButton9 = new System.Windows.Forms.RadioButton();
+            this.radioButton10 = new System.Windows.Forms.RadioButton();
+            this.radioButton11 = new System.Windows.Forms.RadioButton();
+            this.radioButton12 = new System.Windows.Forms.RadioButton();
+            this.radioButton13 = new System.Windows.Forms.RadioButton();
+            this.radioButton14 = new System.Windows.Forms.RadioButton();
+            this.textBox3 = new System.Windows.Forms.TextBox();
+            this.label1 = new System.Windows.Forms.Label();
+            this.panel30 = new System.Windows.Forms.Panel();
+            this.panel1 = new System.Windows.Forms.Panel();
+            this.textBox2 = new System.Windows.Forms.TextBox();
+            this.panel2 = new System.Windows.Forms.Panel();
+            this.textBox6 = new System.Windows.Forms.TextBox();
+            this.panel3 = new System.Windows.Forms.Panel();
+            this.textBox7 = new System.Windows.Forms.TextBox();
+            this.panel4 = new System.Windows.Forms.Panel();
+            this.textBox8 = new System.Windows.Forms.TextBox();
+            this.panel5 = new System.Windows.Forms.Panel();
+            this.textBox9 = new System.Windows.Forms.TextBox();
+            this.panel6 = new System.Windows.Forms.Panel();
+            this.textBox10 = new System.Windows.Forms.TextBox();
+            this.panel7 = new System.Windows.Forms.Panel();
+            this.textBox11 = new System.Windows.Forms.TextBox();
+            this.panel8 = new System.Windows.Forms.Panel();
+            this.textBox12 = new System.Windows.Forms.TextBox();
+            this.panel10 = new System.Windows.Forms.Panel();
+            this.textBox13 = new System.Windows.Forms.TextBox();
+            this.panel11 = new System.Windows.Forms.Panel();
+            this.textBox14 = new System.Windows.Forms.TextBox();
+            this.panel12 = new System.Windows.Forms.Panel();
+            this.textBox15 = new System.Windows.Forms.TextBox();
+            this.panel13 = new System.Windows.Forms.Panel();
+            this.textBox16 = new System.Windows.Forms.TextBox();
+            this.panel14 = new System.Windows.Forms.Panel();
+            this.textBox17 = new System.Windows.Forms.TextBox();
+            this.panel15 = new System.Windows.Forms.Panel();
+            this.textBox18 = new System.Windows.Forms.TextBox();
             this.panel9.SuspendLayout();
             this.panel16.SuspendLayout();
             this.panel28.SuspendLayout();
-            this.panel30.SuspendLayout();
             this.panel17.SuspendLayout();
             this.panel31.SuspendLayout();
             this.panel32.SuspendLayout();
@@ -104,6 +146,22 @@ namespace Digikey
             this.panel43.SuspendLayout();
             this.panel44.SuspendLayout();
             this.panel45.SuspendLayout();
+            this.groupBox1.SuspendLayout();
+            this.panel30.SuspendLayout();
+            this.panel1.SuspendLayout();
+            this.panel2.SuspendLayout();
+            this.panel3.SuspendLayout();
+            this.panel4.SuspendLayout();
+            this.panel5.SuspendLayout();
+            this.panel6.SuspendLayout();
+            this.panel7.SuspendLayout();
+            this.panel8.SuspendLayout();
+            this.panel10.SuspendLayout();
+            this.panel11.SuspendLayout();
+            this.panel12.SuspendLayout();
+            this.panel13.SuspendLayout();
+            this.panel14.SuspendLayout();
+            this.panel15.SuspendLayout();
             this.SuspendLayout();
             // 
             // panel9
@@ -112,7 +170,7 @@ namespace Digikey
             this.panel9.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
             this.panel9.Controls.Add(this.TB_ShipMethod);
             this.panel9.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.panel9.Location = new System.Drawing.Point(213, 146);
+            this.panel9.Location = new System.Drawing.Point(38, 31);
             this.panel9.Name = "panel9";
             this.panel9.Size = new System.Drawing.Size(355, 42);
             this.panel9.TabIndex = 6;
@@ -134,7 +192,7 @@ namespace Digikey
             this.panel16.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
             this.panel16.Controls.Add(this.textBox1);
             this.panel16.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.panel16.Location = new System.Drawing.Point(570, 146);
+            this.panel16.Location = new System.Drawing.Point(395, 31);
             this.panel16.Name = "panel16";
             this.panel16.Size = new System.Drawing.Size(126, 42);
             this.panel16.TabIndex = 19;
@@ -155,7 +213,7 @@ namespace Digikey
             this.panel19.BackColor = System.Drawing.Color.White;
             this.panel19.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
             this.panel19.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.panel19.Location = new System.Drawing.Point(570, 514);
+            this.panel19.Location = new System.Drawing.Point(395, 399);
             this.panel19.Name = "panel19";
             this.panel19.Size = new System.Drawing.Size(126, 25);
             this.panel19.TabIndex = 32;
@@ -165,7 +223,7 @@ namespace Digikey
             this.panel20.BackColor = System.Drawing.Color.White;
             this.panel20.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
             this.panel20.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.panel20.Location = new System.Drawing.Point(570, 487);
+            this.panel20.Location = new System.Drawing.Point(395, 372);
             this.panel20.Name = "panel20";
             this.panel20.Size = new System.Drawing.Size(126, 25);
             this.panel20.TabIndex = 31;
@@ -175,7 +233,7 @@ namespace Digikey
             this.panel21.BackColor = System.Drawing.Color.White;
             this.panel21.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
             this.panel21.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.panel21.Location = new System.Drawing.Point(570, 271);
+            this.panel21.Location = new System.Drawing.Point(395, 156);
             this.panel21.Name = "panel21";
             this.panel21.Size = new System.Drawing.Size(126, 25);
             this.panel21.TabIndex = 23;
@@ -185,7 +243,7 @@ namespace Digikey
             this.panel22.BackColor = System.Drawing.Color.White;
             this.panel22.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
             this.panel22.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.panel22.Location = new System.Drawing.Point(570, 379);
+            this.panel22.Location = new System.Drawing.Point(395, 264);
             this.panel22.Name = "panel22";
             this.panel22.Size = new System.Drawing.Size(126, 25);
             this.panel22.TabIndex = 27;
@@ -195,7 +253,7 @@ namespace Digikey
             this.panel23.BackColor = System.Drawing.Color.White;
             this.panel23.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
             this.panel23.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.panel23.Location = new System.Drawing.Point(570, 325);
+            this.panel23.Location = new System.Drawing.Point(395, 210);
             this.panel23.Name = "panel23";
             this.panel23.Size = new System.Drawing.Size(126, 25);
             this.panel23.TabIndex = 25;
@@ -205,7 +263,7 @@ namespace Digikey
             this.panel24.BackColor = System.Drawing.Color.White;
             this.panel24.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
             this.panel24.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.panel24.Location = new System.Drawing.Point(570, 406);
+            this.panel24.Location = new System.Drawing.Point(395, 291);
             this.panel24.Name = "panel24";
             this.panel24.Size = new System.Drawing.Size(126, 25);
             this.panel24.TabIndex = 28;
@@ -215,7 +273,7 @@ namespace Digikey
             this.panel25.BackColor = System.Drawing.Color.White;
             this.panel25.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
             this.panel25.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.panel25.Location = new System.Drawing.Point(570, 217);
+            this.panel25.Location = new System.Drawing.Point(395, 102);
             this.panel25.Name = "panel25";
             this.panel25.Size = new System.Drawing.Size(126, 25);
             this.panel25.TabIndex = 21;
@@ -225,7 +283,7 @@ namespace Digikey
             this.panel26.BackColor = System.Drawing.Color.White;
             this.panel26.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
             this.panel26.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.panel26.Location = new System.Drawing.Point(570, 460);
+            this.panel26.Location = new System.Drawing.Point(395, 345);
             this.panel26.Name = "panel26";
             this.panel26.Size = new System.Drawing.Size(126, 25);
             this.panel26.TabIndex = 30;
@@ -235,7 +293,7 @@ namespace Digikey
             this.panel27.BackColor = System.Drawing.Color.White;
             this.panel27.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
             this.panel27.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.panel27.Location = new System.Drawing.Point(570, 244);
+            this.panel27.Location = new System.Drawing.Point(395, 129);
             this.panel27.Name = "panel27";
             this.panel27.Size = new System.Drawing.Size(126, 25);
             this.panel27.TabIndex = 22;
@@ -246,7 +304,7 @@ namespace Digikey
             this.panel28.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
             this.panel28.Controls.Add(this.label2);
             this.panel28.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.panel28.Location = new System.Drawing.Point(570, 352);
+            this.panel28.Location = new System.Drawing.Point(395, 237);
             this.panel28.Name = "panel28";
             this.panel28.Size = new System.Drawing.Size(126, 25);
             this.panel28.TabIndex = 26;
@@ -267,47 +325,17 @@ namespace Digikey
             this.panel29.BackColor = System.Drawing.Color.White;
             this.panel29.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
             this.panel29.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.panel29.Location = new System.Drawing.Point(570, 298);
+            this.panel29.Location = new System.Drawing.Point(395, 183);
             this.panel29.Name = "panel29";
             this.panel29.Size = new System.Drawing.Size(126, 25);
             this.panel29.TabIndex = 24;
-            // 
-            // panel30
-            // 
-            this.panel30.BackColor = System.Drawing.Color.White;
-            this.panel30.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-            this.panel30.Controls.Add(this.label1);
-            this.panel30.Controls.Add(this.textBox3);
-            this.panel30.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.panel30.Location = new System.Drawing.Point(570, 190);
-            this.panel30.Name = "panel30";
-            this.panel30.Size = new System.Drawing.Size(126, 25);
-            this.panel30.TabIndex = 20;
-            // 
-            // label1
-            // 
-            this.label1.AutoSize = true;
-            this.label1.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label1.Location = new System.Drawing.Point(-1, 0);
-            this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(68, 20);
-            this.label1.TabIndex = 2;
-            this.label1.Text = "2 Day(s)";
-            this.label1.Click += new System.EventHandler(this.label1_Click);
-            // 
-            // textBox3
-            // 
-            this.textBox3.Location = new System.Drawing.Point(353, 1);
-            this.textBox3.Name = "textBox3";
-            this.textBox3.Size = new System.Drawing.Size(173, 26);
-            this.textBox3.TabIndex = 1;
             // 
             // panel18
             // 
             this.panel18.BackColor = System.Drawing.Color.White;
             this.panel18.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
             this.panel18.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.panel18.Location = new System.Drawing.Point(570, 433);
+            this.panel18.Location = new System.Drawing.Point(395, 318);
             this.panel18.Name = "panel18";
             this.panel18.Size = new System.Drawing.Size(126, 25);
             this.panel18.TabIndex = 29;
@@ -328,7 +356,7 @@ namespace Digikey
             this.panel17.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
             this.panel17.Controls.Add(this.label3);
             this.panel17.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.panel17.Location = new System.Drawing.Point(570, 541);
+            this.panel17.Location = new System.Drawing.Point(395, 426);
             this.panel17.Name = "panel17";
             this.panel17.Size = new System.Drawing.Size(126, 25);
             this.panel17.TabIndex = 33;
@@ -339,7 +367,7 @@ namespace Digikey
             this.panel31.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
             this.panel31.Controls.Add(this.label17);
             this.panel31.Font = new System.Drawing.Font("Microsoft Sans Serif", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.panel31.Location = new System.Drawing.Point(698, 541);
+            this.panel31.Location = new System.Drawing.Point(523, 426);
             this.panel31.Name = "panel31";
             this.panel31.Size = new System.Drawing.Size(126, 25);
             this.panel31.TabIndex = 48;
@@ -361,7 +389,7 @@ namespace Digikey
             this.panel32.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
             this.panel32.Controls.Add(this.label13);
             this.panel32.Font = new System.Drawing.Font("Microsoft Sans Serif", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.panel32.Location = new System.Drawing.Point(698, 433);
+            this.panel32.Location = new System.Drawing.Point(523, 318);
             this.panel32.Name = "panel32";
             this.panel32.Size = new System.Drawing.Size(126, 25);
             this.panel32.TabIndex = 44;
@@ -383,7 +411,7 @@ namespace Digikey
             this.panel33.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
             this.panel33.Controls.Add(this.label16);
             this.panel33.Font = new System.Drawing.Font("Microsoft Sans Serif", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.panel33.Location = new System.Drawing.Point(698, 514);
+            this.panel33.Location = new System.Drawing.Point(523, 399);
             this.panel33.Name = "panel33";
             this.panel33.Size = new System.Drawing.Size(126, 25);
             this.panel33.TabIndex = 47;
@@ -405,7 +433,7 @@ namespace Digikey
             this.panel34.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
             this.panel34.Controls.Add(this.label15);
             this.panel34.Font = new System.Drawing.Font("Microsoft Sans Serif", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.panel34.Location = new System.Drawing.Point(698, 487);
+            this.panel34.Location = new System.Drawing.Point(523, 372);
             this.panel34.Name = "panel34";
             this.panel34.Size = new System.Drawing.Size(126, 25);
             this.panel34.TabIndex = 46;
@@ -427,7 +455,7 @@ namespace Digikey
             this.panel35.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
             this.panel35.Controls.Add(this.label7);
             this.panel35.Font = new System.Drawing.Font("Microsoft Sans Serif", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.panel35.Location = new System.Drawing.Point(698, 271);
+            this.panel35.Location = new System.Drawing.Point(523, 156);
             this.panel35.Name = "panel35";
             this.panel35.Size = new System.Drawing.Size(126, 25);
             this.panel35.TabIndex = 38;
@@ -448,7 +476,7 @@ namespace Digikey
             this.panel36.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
             this.panel36.Controls.Add(this.label11);
             this.panel36.Font = new System.Drawing.Font("Microsoft Sans Serif", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.panel36.Location = new System.Drawing.Point(698, 379);
+            this.panel36.Location = new System.Drawing.Point(523, 264);
             this.panel36.Name = "panel36";
             this.panel36.Size = new System.Drawing.Size(126, 25);
             this.panel36.TabIndex = 42;
@@ -470,7 +498,7 @@ namespace Digikey
             this.panel37.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
             this.panel37.Controls.Add(this.label9);
             this.panel37.Font = new System.Drawing.Font("Microsoft Sans Serif", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.panel37.Location = new System.Drawing.Point(698, 325);
+            this.panel37.Location = new System.Drawing.Point(523, 210);
             this.panel37.Name = "panel37";
             this.panel37.Size = new System.Drawing.Size(126, 25);
             this.panel37.TabIndex = 40;
@@ -492,7 +520,7 @@ namespace Digikey
             this.panel38.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
             this.panel38.Controls.Add(this.label12);
             this.panel38.Font = new System.Drawing.Font("Microsoft Sans Serif", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.panel38.Location = new System.Drawing.Point(698, 406);
+            this.panel38.Location = new System.Drawing.Point(523, 291);
             this.panel38.Name = "panel38";
             this.panel38.Size = new System.Drawing.Size(126, 25);
             this.panel38.TabIndex = 43;
@@ -514,7 +542,7 @@ namespace Digikey
             this.panel39.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
             this.panel39.Controls.Add(this.label4);
             this.panel39.Font = new System.Drawing.Font("Microsoft Sans Serif", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.panel39.Location = new System.Drawing.Point(698, 217);
+            this.panel39.Location = new System.Drawing.Point(523, 102);
             this.panel39.Name = "panel39";
             this.panel39.Size = new System.Drawing.Size(126, 25);
             this.panel39.TabIndex = 36;
@@ -535,7 +563,7 @@ namespace Digikey
             this.panel40.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
             this.panel40.Controls.Add(this.label14);
             this.panel40.Font = new System.Drawing.Font("Microsoft Sans Serif", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.panel40.Location = new System.Drawing.Point(698, 460);
+            this.panel40.Location = new System.Drawing.Point(523, 345);
             this.panel40.Name = "panel40";
             this.panel40.Size = new System.Drawing.Size(126, 25);
             this.panel40.TabIndex = 45;
@@ -557,7 +585,7 @@ namespace Digikey
             this.panel41.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
             this.panel41.Controls.Add(this.label5);
             this.panel41.Font = new System.Drawing.Font("Microsoft Sans Serif", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.panel41.Location = new System.Drawing.Point(698, 244);
+            this.panel41.Location = new System.Drawing.Point(523, 129);
             this.panel41.Name = "panel41";
             this.panel41.Size = new System.Drawing.Size(126, 25);
             this.panel41.TabIndex = 37;
@@ -578,7 +606,7 @@ namespace Digikey
             this.panel42.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
             this.panel42.Controls.Add(this.label10);
             this.panel42.Font = new System.Drawing.Font("Microsoft Sans Serif", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.panel42.Location = new System.Drawing.Point(698, 352);
+            this.panel42.Location = new System.Drawing.Point(523, 237);
             this.panel42.Name = "panel42";
             this.panel42.Size = new System.Drawing.Size(126, 25);
             this.panel42.TabIndex = 41;
@@ -600,7 +628,7 @@ namespace Digikey
             this.panel43.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
             this.panel43.Controls.Add(this.label8);
             this.panel43.Font = new System.Drawing.Font("Microsoft Sans Serif", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.panel43.Location = new System.Drawing.Point(698, 298);
+            this.panel43.Location = new System.Drawing.Point(523, 183);
             this.panel43.Name = "panel43";
             this.panel43.Size = new System.Drawing.Size(126, 25);
             this.panel43.TabIndex = 39;
@@ -622,7 +650,7 @@ namespace Digikey
             this.panel44.Controls.Add(this.label6);
             this.panel44.Controls.Add(this.textBox4);
             this.panel44.Font = new System.Drawing.Font("Microsoft Sans Serif", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.panel44.Location = new System.Drawing.Point(698, 190);
+            this.panel44.Location = new System.Drawing.Point(523, 75);
             this.panel44.Name = "panel44";
             this.panel44.Size = new System.Drawing.Size(126, 25);
             this.panel44.TabIndex = 35;
@@ -650,7 +678,7 @@ namespace Digikey
             this.panel45.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
             this.panel45.Controls.Add(this.textBox5);
             this.panel45.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.panel45.Location = new System.Drawing.Point(698, 146);
+            this.panel45.Location = new System.Drawing.Point(523, 31);
             this.panel45.Name = "panel45";
             this.panel45.Size = new System.Drawing.Size(126, 42);
             this.panel45.TabIndex = 34;
@@ -689,44 +717,549 @@ namespace Digikey
             this.button2.Text = "Continue to Payment";
             this.button2.UseVisualStyleBackColor = false;
             // 
+            // groupBox1
+            // 
+            this.groupBox1.Controls.Add(this.radioButton1);
+            this.groupBox1.Controls.Add(this.radioButton14);
+            this.groupBox1.Controls.Add(this.radioButton13);
+            this.groupBox1.Controls.Add(this.panel1);
+            this.groupBox1.Controls.Add(this.radioButton12);
+            this.groupBox1.Controls.Add(this.radioButton11);
+            this.groupBox1.Controls.Add(this.radioButton10);
+            this.groupBox1.Controls.Add(this.radioButton9);
+            this.groupBox1.Controls.Add(this.radioButton8);
+            this.groupBox1.Controls.Add(this.radioButton7);
+            this.groupBox1.Controls.Add(this.radioButton6);
+            this.groupBox1.Controls.Add(this.radioButton5);
+            this.groupBox1.Controls.Add(this.radioButton3);
+            this.groupBox1.Controls.Add(this.radioButton4);
+            this.groupBox1.Controls.Add(this.radioButton2);
+            this.groupBox1.Controls.Add(this.panel31);
+            this.groupBox1.Controls.Add(this.panel17);
+            this.groupBox1.Controls.Add(this.panel32);
+            this.groupBox1.Controls.Add(this.panel18);
+            this.groupBox1.Controls.Add(this.panel33);
+            this.groupBox1.Controls.Add(this.panel19);
+            this.groupBox1.Controls.Add(this.panel34);
+            this.groupBox1.Controls.Add(this.panel20);
+            this.groupBox1.Controls.Add(this.panel35);
+            this.groupBox1.Controls.Add(this.panel21);
+            this.groupBox1.Controls.Add(this.panel36);
+            this.groupBox1.Controls.Add(this.panel22);
+            this.groupBox1.Controls.Add(this.panel37);
+            this.groupBox1.Controls.Add(this.panel23);
+            this.groupBox1.Controls.Add(this.panel38);
+            this.groupBox1.Controls.Add(this.panel24);
+            this.groupBox1.Controls.Add(this.panel39);
+            this.groupBox1.Controls.Add(this.panel25);
+            this.groupBox1.Controls.Add(this.panel40);
+            this.groupBox1.Controls.Add(this.panel26);
+            this.groupBox1.Controls.Add(this.panel41);
+            this.groupBox1.Controls.Add(this.panel27);
+            this.groupBox1.Controls.Add(this.panel42);
+            this.groupBox1.Controls.Add(this.panel28);
+            this.groupBox1.Controls.Add(this.panel43);
+            this.groupBox1.Controls.Add(this.panel29);
+            this.groupBox1.Controls.Add(this.panel44);
+            this.groupBox1.Controls.Add(this.panel30);
+            this.groupBox1.Controls.Add(this.panel45);
+            this.groupBox1.Controls.Add(this.panel16);
+            this.groupBox1.Controls.Add(this.panel9);
+            this.groupBox1.Controls.Add(this.panel2);
+            this.groupBox1.Controls.Add(this.panel3);
+            this.groupBox1.Controls.Add(this.panel4);
+            this.groupBox1.Controls.Add(this.panel5);
+            this.groupBox1.Controls.Add(this.panel6);
+            this.groupBox1.Controls.Add(this.panel7);
+            this.groupBox1.Controls.Add(this.panel8);
+            this.groupBox1.Controls.Add(this.panel10);
+            this.groupBox1.Controls.Add(this.panel11);
+            this.groupBox1.Controls.Add(this.panel12);
+            this.groupBox1.Controls.Add(this.panel13);
+            this.groupBox1.Controls.Add(this.panel14);
+            this.groupBox1.Controls.Add(this.panel15);
+            this.groupBox1.Location = new System.Drawing.Point(149, 91);
+            this.groupBox1.Name = "groupBox1";
+            this.groupBox1.Size = new System.Drawing.Size(686, 491);
+            this.groupBox1.TabIndex = 51;
+            this.groupBox1.TabStop = false;
+            // 
+            // radioButton1
+            // 
+            this.radioButton1.AutoSize = true;
+            this.radioButton1.BackColor = System.Drawing.Color.White;
+            this.radioButton1.Font = new System.Drawing.Font("Microsoft Sans Serif", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.radioButton1.Location = new System.Drawing.Point(42, 77);
+            this.radioButton1.Name = "radioButton1";
+            this.radioButton1.Size = new System.Drawing.Size(125, 22);
+            this.radioButton1.TabIndex = 49;
+            this.radioButton1.TabStop = true;
+            this.radioButton1.Text = "FedEX Ground";
+            this.radioButton1.UseVisualStyleBackColor = false;
+            this.radioButton1.CheckedChanged += new System.EventHandler(this.radioButton1_CheckedChanged);
+            // 
+            // radioButton2
+            // 
+            this.radioButton2.AutoSize = true;
+            this.radioButton2.BackColor = System.Drawing.Color.White;
+            this.radioButton2.Font = new System.Drawing.Font("Microsoft Sans Serif", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.radioButton2.Location = new System.Drawing.Point(42, 103);
+            this.radioButton2.Name = "radioButton2";
+            this.radioButton2.Size = new System.Drawing.Size(222, 22);
+            this.radioButton2.TabIndex = 50;
+            this.radioButton2.TabStop = true;
+            this.radioButton2.Text = "FedEX Saver (3-Day Delivery)";
+            this.radioButton2.UseVisualStyleBackColor = false;
+            // 
+            // radioButton3
+            // 
+            this.radioButton3.AutoSize = true;
+            this.radioButton3.BackColor = System.Drawing.Color.White;
+            this.radioButton3.Font = new System.Drawing.Font("Microsoft Sans Serif", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.radioButton3.Location = new System.Drawing.Point(42, 158);
+            this.radioButton3.Name = "radioButton3";
+            this.radioButton3.Size = new System.Drawing.Size(225, 22);
+            this.radioButton3.TabIndex = 52;
+            this.radioButton3.TabStop = true;
+            this.radioButton3.Text = "FexEx Overnight P.M. Delivery";
+            this.radioButton3.UseVisualStyleBackColor = false;
+            this.radioButton3.CheckedChanged += new System.EventHandler(this.radioButton3_CheckedChanged);
+            // 
+            // radioButton4
+            // 
+            this.radioButton4.AutoSize = true;
+            this.radioButton4.BackColor = System.Drawing.Color.White;
+            this.radioButton4.Font = new System.Drawing.Font("Microsoft Sans Serif", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.radioButton4.Location = new System.Drawing.Point(42, 130);
+            this.radioButton4.Name = "radioButton4";
+            this.radioButton4.Size = new System.Drawing.Size(228, 22);
+            this.radioButton4.TabIndex = 51;
+            this.radioButton4.TabStop = true;
+            this.radioButton4.Text = "FexEx Economic (2nd Day Air)";
+            this.radioButton4.UseVisualStyleBackColor = false;
+            // 
+            // radioButton5
+            // 
+            this.radioButton5.AutoSize = true;
+            this.radioButton5.BackColor = System.Drawing.Color.White;
+            this.radioButton5.Font = new System.Drawing.Font("Microsoft Sans Serif", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.radioButton5.Location = new System.Drawing.Point(42, 184);
+            this.radioButton5.Name = "radioButton5";
+            this.radioButton5.Size = new System.Drawing.Size(224, 22);
+            this.radioButton5.TabIndex = 53;
+            this.radioButton5.TabStop = true;
+            this.radioButton5.Text = "FexEx Overnight A.M. Delivery";
+            this.radioButton5.UseVisualStyleBackColor = false;
+            this.radioButton5.CheckedChanged += new System.EventHandler(this.radioButton5_CheckedChanged);
+            // 
+            // radioButton6
+            // 
+            this.radioButton6.AutoSize = true;
+            this.radioButton6.BackColor = System.Drawing.Color.White;
+            this.radioButton6.Font = new System.Drawing.Font("Microsoft Sans Serif", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.radioButton6.Location = new System.Drawing.Point(42, 211);
+            this.radioButton6.Name = "radioButton6";
+            this.radioButton6.Size = new System.Drawing.Size(257, 22);
+            this.radioButton6.TabIndex = 54;
+            this.radioButton6.TabStop = true;
+            this.radioButton6.Text = "FexEx First Overnight A.M. Delivery";
+            this.radioButton6.UseVisualStyleBackColor = false;
+            this.radioButton6.CheckedChanged += new System.EventHandler(this.radioButton6_CheckedChanged);
+            // 
+            // radioButton7
+            // 
+            this.radioButton7.AutoSize = true;
+            this.radioButton7.BackColor = System.Drawing.Color.White;
+            this.radioButton7.Font = new System.Drawing.Font("Microsoft Sans Serif", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.radioButton7.Location = new System.Drawing.Point(42, 239);
+            this.radioButton7.Name = "radioButton7";
+            this.radioButton7.Size = new System.Drawing.Size(111, 22);
+            this.radioButton7.TabIndex = 55;
+            this.radioButton7.TabStop = true;
+            this.radioButton7.Text = "UPS Ground";
+            this.radioButton7.UseVisualStyleBackColor = false;
+            // 
+            // radioButton8
+            // 
+            this.radioButton8.AutoSize = true;
+            this.radioButton8.BackColor = System.Drawing.Color.White;
+            this.radioButton8.Font = new System.Drawing.Font("Microsoft Sans Serif", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.radioButton8.Location = new System.Drawing.Point(42, 266);
+            this.radioButton8.Name = "radioButton8";
+            this.radioButton8.Size = new System.Drawing.Size(156, 22);
+            this.radioButton8.TabIndex = 56;
+            this.radioButton8.TabStop = true;
+            this.radioButton8.Text = "UPS 3-Day Delivery";
+            this.radioButton8.UseVisualStyleBackColor = false;
+            // 
+            // radioButton9
+            // 
+            this.radioButton9.AutoSize = true;
+            this.radioButton9.BackColor = System.Drawing.Color.White;
+            this.radioButton9.Font = new System.Drawing.Font("Microsoft Sans Serif", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.radioButton9.Location = new System.Drawing.Point(42, 292);
+            this.radioButton9.Name = "radioButton9";
+            this.radioButton9.Size = new System.Drawing.Size(136, 22);
+            this.radioButton9.TabIndex = 57;
+            this.radioButton9.TabStop = true;
+            this.radioButton9.Text = "UPS 2nd Day Air";
+            this.radioButton9.UseVisualStyleBackColor = false;
+            // 
+            // radioButton10
+            // 
+            this.radioButton10.AutoSize = true;
+            this.radioButton10.BackColor = System.Drawing.Color.White;
+            this.radioButton10.Font = new System.Drawing.Font("Microsoft Sans Serif", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.radioButton10.Location = new System.Drawing.Point(42, 319);
+            this.radioButton10.Name = "radioButton10";
+            this.radioButton10.Size = new System.Drawing.Size(226, 22);
+            this.radioButton10.TabIndex = 58;
+            this.radioButton10.TabStop = true;
+            this.radioButton10.Text = "UPS 2nd Day Air A.M. Delivery";
+            this.radioButton10.UseVisualStyleBackColor = false;
+            // 
+            // radioButton11
+            // 
+            this.radioButton11.AutoSize = true;
+            this.radioButton11.BackColor = System.Drawing.Color.White;
+            this.radioButton11.Font = new System.Drawing.Font("Microsoft Sans Serif", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.radioButton11.Location = new System.Drawing.Point(42, 346);
+            this.radioButton11.Name = "radioButton11";
+            this.radioButton11.Size = new System.Drawing.Size(124, 22);
+            this.radioButton11.TabIndex = 59;
+            this.radioButton11.TabStop = true;
+            this.radioButton11.Text = "UPS Overnight";
+            this.radioButton11.UseVisualStyleBackColor = false;
+            // 
+            // radioButton12
+            // 
+            this.radioButton12.AutoSize = true;
+            this.radioButton12.BackColor = System.Drawing.Color.White;
+            this.radioButton12.Font = new System.Drawing.Font("Microsoft Sans Serif", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.radioButton12.Location = new System.Drawing.Point(42, 373);
+            this.radioButton12.Name = "radioButton12";
+            this.radioButton12.Size = new System.Drawing.Size(215, 22);
+            this.radioButton12.TabIndex = 60;
+            this.radioButton12.TabStop = true;
+            this.radioButton12.Text = "UPS Overnight P.M. Delivery";
+            this.radioButton12.UseVisualStyleBackColor = false;
+            // 
+            // radioButton13
+            // 
+            this.radioButton13.AutoSize = true;
+            this.radioButton13.BackColor = System.Drawing.Color.White;
+            this.radioButton13.Font = new System.Drawing.Font("Microsoft Sans Serif", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.radioButton13.Location = new System.Drawing.Point(42, 400);
+            this.radioButton13.Name = "radioButton13";
+            this.radioButton13.Size = new System.Drawing.Size(213, 22);
+            this.radioButton13.TabIndex = 61;
+            this.radioButton13.TabStop = true;
+            this.radioButton13.Text = "UPS Next Day Air Early A.M.";
+            this.radioButton13.UseVisualStyleBackColor = false;
+            // 
+            // radioButton14
+            // 
+            this.radioButton14.AutoSize = true;
+            this.radioButton14.BackColor = System.Drawing.Color.White;
+            this.radioButton14.Font = new System.Drawing.Font("Microsoft Sans Serif", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.radioButton14.Location = new System.Drawing.Point(42, 427);
+            this.radioButton14.Name = "radioButton14";
+            this.radioButton14.Size = new System.Drawing.Size(128, 22);
+            this.radioButton14.TabIndex = 62;
+            this.radioButton14.TabStop = true;
+            this.radioButton14.Text = "First Class Mail";
+            this.radioButton14.UseVisualStyleBackColor = false;
+            // 
+            // textBox3
+            // 
+            this.textBox3.Location = new System.Drawing.Point(353, 1);
+            this.textBox3.Name = "textBox3";
+            this.textBox3.Size = new System.Drawing.Size(173, 26);
+            this.textBox3.TabIndex = 1;
+            // 
+            // label1
+            // 
+            this.label1.AutoSize = true;
+            this.label1.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label1.Location = new System.Drawing.Point(-1, 0);
+            this.label1.Name = "label1";
+            this.label1.Size = new System.Drawing.Size(68, 20);
+            this.label1.TabIndex = 2;
+            this.label1.Text = "2 Day(s)";
+            this.label1.Click += new System.EventHandler(this.label1_Click);
+            // 
+            // panel30
+            // 
+            this.panel30.BackColor = System.Drawing.Color.White;
+            this.panel30.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.panel30.Controls.Add(this.label1);
+            this.panel30.Controls.Add(this.textBox3);
+            this.panel30.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.panel30.Location = new System.Drawing.Point(395, 75);
+            this.panel30.Name = "panel30";
+            this.panel30.Size = new System.Drawing.Size(126, 25);
+            this.panel30.TabIndex = 20;
+            // 
+            // panel1
+            // 
+            this.panel1.BackColor = System.Drawing.Color.White;
+            this.panel1.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.panel1.Controls.Add(this.textBox2);
+            this.panel1.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.panel1.Location = new System.Drawing.Point(38, 75);
+            this.panel1.Name = "panel1";
+            this.panel1.Size = new System.Drawing.Size(355, 25);
+            this.panel1.TabIndex = 21;
+            // 
+            // textBox2
+            // 
+            this.textBox2.Location = new System.Drawing.Point(353, 1);
+            this.textBox2.Name = "textBox2";
+            this.textBox2.Size = new System.Drawing.Size(173, 26);
+            this.textBox2.TabIndex = 1;
+            // 
+            // panel2
+            // 
+            this.panel2.BackColor = System.Drawing.Color.White;
+            this.panel2.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.panel2.Controls.Add(this.textBox6);
+            this.panel2.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.panel2.Location = new System.Drawing.Point(38, 102);
+            this.panel2.Name = "panel2";
+            this.panel2.Size = new System.Drawing.Size(355, 25);
+            this.panel2.TabIndex = 22;
+            // 
+            // textBox6
+            // 
+            this.textBox6.Location = new System.Drawing.Point(353, 1);
+            this.textBox6.Name = "textBox6";
+            this.textBox6.Size = new System.Drawing.Size(173, 26);
+            this.textBox6.TabIndex = 1;
+            // 
+            // panel3
+            // 
+            this.panel3.BackColor = System.Drawing.Color.White;
+            this.panel3.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.panel3.Controls.Add(this.textBox7);
+            this.panel3.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.panel3.Location = new System.Drawing.Point(38, 129);
+            this.panel3.Name = "panel3";
+            this.panel3.Size = new System.Drawing.Size(355, 25);
+            this.panel3.TabIndex = 63;
+            // 
+            // textBox7
+            // 
+            this.textBox7.Location = new System.Drawing.Point(353, 1);
+            this.textBox7.Name = "textBox7";
+            this.textBox7.Size = new System.Drawing.Size(173, 26);
+            this.textBox7.TabIndex = 1;
+            // 
+            // panel4
+            // 
+            this.panel4.BackColor = System.Drawing.Color.White;
+            this.panel4.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.panel4.Controls.Add(this.textBox8);
+            this.panel4.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.panel4.Location = new System.Drawing.Point(38, 156);
+            this.panel4.Name = "panel4";
+            this.panel4.Size = new System.Drawing.Size(355, 25);
+            this.panel4.TabIndex = 64;
+            // 
+            // textBox8
+            // 
+            this.textBox8.Location = new System.Drawing.Point(353, 1);
+            this.textBox8.Name = "textBox8";
+            this.textBox8.Size = new System.Drawing.Size(173, 26);
+            this.textBox8.TabIndex = 1;
+            // 
+            // panel5
+            // 
+            this.panel5.BackColor = System.Drawing.Color.White;
+            this.panel5.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.panel5.Controls.Add(this.textBox9);
+            this.panel5.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.panel5.Location = new System.Drawing.Point(38, 183);
+            this.panel5.Name = "panel5";
+            this.panel5.Size = new System.Drawing.Size(355, 25);
+            this.panel5.TabIndex = 65;
+            // 
+            // textBox9
+            // 
+            this.textBox9.Location = new System.Drawing.Point(353, 1);
+            this.textBox9.Name = "textBox9";
+            this.textBox9.Size = new System.Drawing.Size(173, 26);
+            this.textBox9.TabIndex = 1;
+            // 
+            // panel6
+            // 
+            this.panel6.BackColor = System.Drawing.Color.White;
+            this.panel6.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.panel6.Controls.Add(this.textBox10);
+            this.panel6.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.panel6.Location = new System.Drawing.Point(38, 210);
+            this.panel6.Name = "panel6";
+            this.panel6.Size = new System.Drawing.Size(355, 25);
+            this.panel6.TabIndex = 66;
+            // 
+            // textBox10
+            // 
+            this.textBox10.Location = new System.Drawing.Point(353, 1);
+            this.textBox10.Name = "textBox10";
+            this.textBox10.Size = new System.Drawing.Size(173, 26);
+            this.textBox10.TabIndex = 1;
+            // 
+            // panel7
+            // 
+            this.panel7.BackColor = System.Drawing.Color.White;
+            this.panel7.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.panel7.Controls.Add(this.textBox11);
+            this.panel7.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.panel7.Location = new System.Drawing.Point(38, 237);
+            this.panel7.Name = "panel7";
+            this.panel7.Size = new System.Drawing.Size(355, 25);
+            this.panel7.TabIndex = 67;
+            // 
+            // textBox11
+            // 
+            this.textBox11.Location = new System.Drawing.Point(353, 1);
+            this.textBox11.Name = "textBox11";
+            this.textBox11.Size = new System.Drawing.Size(173, 26);
+            this.textBox11.TabIndex = 1;
+            // 
+            // panel8
+            // 
+            this.panel8.BackColor = System.Drawing.Color.White;
+            this.panel8.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.panel8.Controls.Add(this.textBox12);
+            this.panel8.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.panel8.Location = new System.Drawing.Point(38, 264);
+            this.panel8.Name = "panel8";
+            this.panel8.Size = new System.Drawing.Size(355, 25);
+            this.panel8.TabIndex = 68;
+            // 
+            // textBox12
+            // 
+            this.textBox12.Location = new System.Drawing.Point(353, 1);
+            this.textBox12.Name = "textBox12";
+            this.textBox12.Size = new System.Drawing.Size(173, 26);
+            this.textBox12.TabIndex = 1;
+            // 
+            // panel10
+            // 
+            this.panel10.BackColor = System.Drawing.Color.White;
+            this.panel10.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.panel10.Controls.Add(this.textBox13);
+            this.panel10.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.panel10.Location = new System.Drawing.Point(38, 291);
+            this.panel10.Name = "panel10";
+            this.panel10.Size = new System.Drawing.Size(355, 25);
+            this.panel10.TabIndex = 65;
+            // 
+            // textBox13
+            // 
+            this.textBox13.Location = new System.Drawing.Point(353, 1);
+            this.textBox13.Name = "textBox13";
+            this.textBox13.Size = new System.Drawing.Size(173, 26);
+            this.textBox13.TabIndex = 1;
+            // 
+            // panel11
+            // 
+            this.panel11.BackColor = System.Drawing.Color.White;
+            this.panel11.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.panel11.Controls.Add(this.textBox14);
+            this.panel11.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.panel11.Location = new System.Drawing.Point(38, 318);
+            this.panel11.Name = "panel11";
+            this.panel11.Size = new System.Drawing.Size(355, 25);
+            this.panel11.TabIndex = 66;
+            // 
+            // textBox14
+            // 
+            this.textBox14.Location = new System.Drawing.Point(353, 1);
+            this.textBox14.Name = "textBox14";
+            this.textBox14.Size = new System.Drawing.Size(173, 26);
+            this.textBox14.TabIndex = 1;
+            // 
+            // panel12
+            // 
+            this.panel12.BackColor = System.Drawing.Color.White;
+            this.panel12.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.panel12.Controls.Add(this.textBox15);
+            this.panel12.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.panel12.Location = new System.Drawing.Point(38, 345);
+            this.panel12.Name = "panel12";
+            this.panel12.Size = new System.Drawing.Size(355, 25);
+            this.panel12.TabIndex = 69;
+            // 
+            // textBox15
+            // 
+            this.textBox15.Location = new System.Drawing.Point(353, 1);
+            this.textBox15.Name = "textBox15";
+            this.textBox15.Size = new System.Drawing.Size(173, 26);
+            this.textBox15.TabIndex = 1;
+            // 
+            // panel13
+            // 
+            this.panel13.BackColor = System.Drawing.Color.White;
+            this.panel13.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.panel13.Controls.Add(this.textBox16);
+            this.panel13.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.panel13.Location = new System.Drawing.Point(38, 372);
+            this.panel13.Name = "panel13";
+            this.panel13.Size = new System.Drawing.Size(355, 25);
+            this.panel13.TabIndex = 66;
+            // 
+            // textBox16
+            // 
+            this.textBox16.Location = new System.Drawing.Point(353, 1);
+            this.textBox16.Name = "textBox16";
+            this.textBox16.Size = new System.Drawing.Size(173, 26);
+            this.textBox16.TabIndex = 1;
+            // 
+            // panel14
+            // 
+            this.panel14.BackColor = System.Drawing.Color.White;
+            this.panel14.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.panel14.Controls.Add(this.textBox17);
+            this.panel14.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.panel14.Location = new System.Drawing.Point(38, 399);
+            this.panel14.Name = "panel14";
+            this.panel14.Size = new System.Drawing.Size(355, 25);
+            this.panel14.TabIndex = 70;
+            // 
+            // textBox17
+            // 
+            this.textBox17.Location = new System.Drawing.Point(353, 1);
+            this.textBox17.Name = "textBox17";
+            this.textBox17.Size = new System.Drawing.Size(173, 26);
+            this.textBox17.TabIndex = 1;
+            // 
+            // panel15
+            // 
+            this.panel15.BackColor = System.Drawing.Color.White;
+            this.panel15.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.panel15.Controls.Add(this.textBox18);
+            this.panel15.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.panel15.Location = new System.Drawing.Point(38, 426);
+            this.panel15.Name = "panel15";
+            this.panel15.Size = new System.Drawing.Size(355, 25);
+            this.panel15.TabIndex = 71;
+            // 
+            // textBox18
+            // 
+            this.textBox18.Location = new System.Drawing.Point(353, 1);
+            this.textBox18.Name = "textBox18";
+            this.textBox18.Size = new System.Drawing.Size(173, 26);
+            this.textBox18.TabIndex = 1;
+            // 
             // Shipping_Info
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(1884, 711);
+            this.Controls.Add(this.groupBox1);
             this.Controls.Add(this.button2);
             this.Controls.Add(this.button1);
-            this.Controls.Add(this.panel31);
-            this.Controls.Add(this.panel17);
-            this.Controls.Add(this.panel32);
-            this.Controls.Add(this.panel18);
-            this.Controls.Add(this.panel33);
-            this.Controls.Add(this.panel19);
-            this.Controls.Add(this.panel34);
-            this.Controls.Add(this.panel20);
-            this.Controls.Add(this.panel35);
-            this.Controls.Add(this.panel21);
-            this.Controls.Add(this.panel36);
-            this.Controls.Add(this.panel22);
-            this.Controls.Add(this.panel37);
-            this.Controls.Add(this.panel23);
-            this.Controls.Add(this.panel38);
-            this.Controls.Add(this.panel24);
-            this.Controls.Add(this.panel39);
-            this.Controls.Add(this.panel25);
-            this.Controls.Add(this.panel40);
-            this.Controls.Add(this.panel26);
-            this.Controls.Add(this.panel41);
-            this.Controls.Add(this.panel27);
-            this.Controls.Add(this.panel42);
-            this.Controls.Add(this.panel28);
-            this.Controls.Add(this.panel43);
-            this.Controls.Add(this.panel29);
-            this.Controls.Add(this.panel44);
-            this.Controls.Add(this.panel30);
-            this.Controls.Add(this.panel45);
-            this.Controls.Add(this.panel16);
-            this.Controls.Add(this.panel9);
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None;
             this.Name = "Shipping_Info";
             this.RightToLeftLayout = true;
@@ -737,8 +1270,6 @@ namespace Digikey
             this.panel16.PerformLayout();
             this.panel28.ResumeLayout(false);
             this.panel28.PerformLayout();
-            this.panel30.ResumeLayout(false);
-            this.panel30.PerformLayout();
             this.panel17.ResumeLayout(false);
             this.panel17.PerformLayout();
             this.panel31.ResumeLayout(false);
@@ -771,6 +1302,38 @@ namespace Digikey
             this.panel44.PerformLayout();
             this.panel45.ResumeLayout(false);
             this.panel45.PerformLayout();
+            this.groupBox1.ResumeLayout(false);
+            this.groupBox1.PerformLayout();
+            this.panel30.ResumeLayout(false);
+            this.panel30.PerformLayout();
+            this.panel1.ResumeLayout(false);
+            this.panel1.PerformLayout();
+            this.panel2.ResumeLayout(false);
+            this.panel2.PerformLayout();
+            this.panel3.ResumeLayout(false);
+            this.panel3.PerformLayout();
+            this.panel4.ResumeLayout(false);
+            this.panel4.PerformLayout();
+            this.panel5.ResumeLayout(false);
+            this.panel5.PerformLayout();
+            this.panel6.ResumeLayout(false);
+            this.panel6.PerformLayout();
+            this.panel7.ResumeLayout(false);
+            this.panel7.PerformLayout();
+            this.panel8.ResumeLayout(false);
+            this.panel8.PerformLayout();
+            this.panel10.ResumeLayout(false);
+            this.panel10.PerformLayout();
+            this.panel11.ResumeLayout(false);
+            this.panel11.PerformLayout();
+            this.panel12.ResumeLayout(false);
+            this.panel12.PerformLayout();
+            this.panel13.ResumeLayout(false);
+            this.panel13.PerformLayout();
+            this.panel14.ResumeLayout(false);
+            this.panel14.PerformLayout();
+            this.panel15.ResumeLayout(false);
+            this.panel15.PerformLayout();
             this.ResumeLayout(false);
 
         }
@@ -791,10 +1354,7 @@ namespace Digikey
         private System.Windows.Forms.Panel panel27;
         private System.Windows.Forms.Panel panel28;
         private System.Windows.Forms.Panel panel29;
-        private System.Windows.Forms.Panel panel30;
-        private System.Windows.Forms.TextBox textBox3;
         private System.Windows.Forms.Label label2;
-        private System.Windows.Forms.Label label1;
         private System.Windows.Forms.Panel panel18;
         private System.Windows.Forms.Label label3;
         private System.Windows.Forms.Panel panel17;
@@ -831,5 +1391,51 @@ namespace Digikey
         private System.Windows.Forms.Label label8;
         private System.Windows.Forms.Button button1;
         private System.Windows.Forms.Button button2;
+        private System.Windows.Forms.GroupBox groupBox1;
+        private System.Windows.Forms.RadioButton radioButton5;
+        private System.Windows.Forms.RadioButton radioButton3;
+        private System.Windows.Forms.RadioButton radioButton4;
+        private System.Windows.Forms.RadioButton radioButton2;
+        private System.Windows.Forms.RadioButton radioButton1;
+        private System.Windows.Forms.RadioButton radioButton6;
+        private System.Windows.Forms.RadioButton radioButton14;
+        private System.Windows.Forms.RadioButton radioButton13;
+        private System.Windows.Forms.RadioButton radioButton12;
+        private System.Windows.Forms.RadioButton radioButton11;
+        private System.Windows.Forms.RadioButton radioButton10;
+        private System.Windows.Forms.RadioButton radioButton9;
+        private System.Windows.Forms.RadioButton radioButton8;
+        private System.Windows.Forms.RadioButton radioButton7;
+        private System.Windows.Forms.Panel panel30;
+        private System.Windows.Forms.Label label1;
+        private System.Windows.Forms.TextBox textBox3;
+        private System.Windows.Forms.Panel panel1;
+        private System.Windows.Forms.TextBox textBox2;
+        private System.Windows.Forms.Panel panel2;
+        private System.Windows.Forms.TextBox textBox6;
+        private System.Windows.Forms.Panel panel3;
+        private System.Windows.Forms.TextBox textBox7;
+        private System.Windows.Forms.Panel panel4;
+        private System.Windows.Forms.TextBox textBox8;
+        private System.Windows.Forms.Panel panel5;
+        private System.Windows.Forms.TextBox textBox9;
+        private System.Windows.Forms.Panel panel6;
+        private System.Windows.Forms.TextBox textBox10;
+        private System.Windows.Forms.Panel panel7;
+        private System.Windows.Forms.TextBox textBox11;
+        private System.Windows.Forms.Panel panel8;
+        private System.Windows.Forms.TextBox textBox12;
+        private System.Windows.Forms.Panel panel10;
+        private System.Windows.Forms.TextBox textBox13;
+        private System.Windows.Forms.Panel panel11;
+        private System.Windows.Forms.TextBox textBox14;
+        private System.Windows.Forms.Panel panel12;
+        private System.Windows.Forms.TextBox textBox15;
+        private System.Windows.Forms.Panel panel13;
+        private System.Windows.Forms.TextBox textBox16;
+        private System.Windows.Forms.Panel panel14;
+        private System.Windows.Forms.TextBox textBox17;
+        private System.Windows.Forms.Panel panel15;
+        private System.Windows.Forms.TextBox textBox18;
     }
 }
