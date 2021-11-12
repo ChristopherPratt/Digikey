@@ -43,3 +43,20 @@ C:\0SW\College\CSC 310 UI\Git\Digikey\Digikey\obj\Debug\Digikey.Cart.resources
 C:\0SW\College\CSC 310 UI\Git\Digikey\Digikey\obj\Debug\Digikey.Product_Details.resources
 C:\0SW\College\CSC 310 UI\Git\Digikey\Digikey\obj\Debug\Digikey.Shipping_Info.resources
 C:\0SW\College\CSC 310 UI\Git\Digikey\Digikey\obj\Debug\Digikey.Support.resources
+C:\Users\felix\Desktop\digikey\Digikey\Digikey\bin\Debug\Digikey.exe.config
+C:\Users\felix\Desktop\digikey\Digikey\Digikey\bin\Debug\Digikey.exe
+C:\Users\felix\Desktop\digikey\Digikey\Digikey\bin\Debug\Digikey.pdb
+C:\Users\felix\Desktop\digikey\Digikey\Digikey\obj\Debug\Digikey.csproj.AssemblyReference.cache
+C:\Users\felix\Desktop\digikey\Digikey\Digikey\obj\Debug\Digikey.Address_Info.resources
+C:\Users\felix\Desktop\digikey\Digikey\Digikey\obj\Debug\Digikey.Cart.resources
+C:\Users\felix\Desktop\digikey\Digikey\Digikey\obj\Debug\Digikey.Overlay.resources
+C:\Users\felix\Desktop\digikey\Digikey\Digikey\obj\Debug\Digikey.Product_Details.resources
+C:\Users\felix\Desktop\digikey\Digikey\Digikey\obj\Debug\Digikey.Shipping_Info.resources
+C:\Users\felix\Desktop\digikey\Digikey\Digikey\obj\Debug\Digikey.Support.resources
+C:\Users\felix\Desktop\digikey\Digikey\Digikey\obj\Debug\Digikey.TopMenu.resources
+C:\Users\felix\Desktop\digikey\Digikey\Digikey\obj\Debug\Digikey.Filter.resources
+C:\Users\felix\Desktop\digikey\Digikey\Digikey\obj\Debug\Digikey.Properties.Resources.resources
+C:\Users\felix\Desktop\digikey\Digikey\Digikey\obj\Debug\Digikey.csproj.GenerateResource.cache
+C:\Users\felix\Desktop\digikey\Digikey\Digikey\obj\Debug\Digikey.csproj.CoreCompileInputs.cache
+C:\Users\felix\Desktop\digikey\Digikey\Digikey\obj\Debug\Digikey.exe
+C:\Users\felix\Desktop\digikey\Digikey\Digikey\obj\Debug\Digikey.pdb
